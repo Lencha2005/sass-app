@@ -1,0 +1,46 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    -webkit-animation-duration: 0.01ms !important;
+       -moz-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+       -moz-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    -webkit-transition-duration: 0.01ms !important;
+       -moz-transition-duration: 0.01ms !important;
+            transition-duration: 0.01ms !important;
+  }
+}
